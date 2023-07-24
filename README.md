@@ -45,14 +45,39 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 
 To learn React, check out the [React documentation](https://reactjs.org/).
 
-
 ## npm i react-router-dom @types/react-router-dom
 
 ## solution
 
 https://github.com/facebook/create-react-app/issues/12132
 
-# Initialize
+## Initialize
+
+# go to bootstrapcdn.com and copy the HTML link of the latest version and paste it to public/index.html
+
+# node install with nvm
+
+curl -sL https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.0/install.sh -o install_nvm.sh
+
+bash install_nvm.sh
+
+export NVM_DIR="$HOME/.nvm"
+  [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+  [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion" # This loads nvm bash_completion
+
+source ~/.bash_profile
+
+nvm install --lts # Now using node v18.17.0 (npm v9.6.7)
+
+// or nvm install 18.17.0
+
+# npm
+
+sudo apt install npm
+
+npm install -g latest-version
+
+npm install -g npm@9.8.1
 
 npm install
 

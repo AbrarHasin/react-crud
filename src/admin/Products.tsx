@@ -1,11 +1,10 @@
 import React, { useEffect, useState } from 'react';
 import Wrapper from './Wrapper';
 import { Product } from '../interfaces/product';
-import { Link, useNavigate } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 const Products: React.FC = () => {
   const [products, setProducts] = useState<Product[]>([]);
-//   const navigate = useNavigate();
 
   useEffect(() => {
     (async () => {
